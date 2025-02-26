@@ -1,5 +1,16 @@
 # 09 Servers and APIs: Weather Dashboard
 
+## Description
+This application uses weather data from OpenWeather API to construct a 5-day weather forecast as well as the current weather for that day. You can search for different US cities and add them to a historical queue. From there you can click on any city in the historical queue to view that city's weather. You can also delete items from the historical queue.
+
+## Screenshot
+
+![alt text](image.png)
+
+## Link to Deployed Application
+
+
+
 ## Your Task
 
 External APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in their context, frequently consuming this data via a server.

@@ -122,7 +122,7 @@ class WeatherService {
 }
   // TODO: Build parseCurrentWeather method
   private parseCurrentWeather(response: any) {
-    const parsedDate = dayjs.unix(response.dt).format('dddd, MMMM, YYYY');
+    const parsedDate = dayjs.unix(response.dt).format('dddd, MMMM D, YYYY');
 
     const weather = new Weather(
       this.city,
@@ -147,7 +147,7 @@ class WeatherService {
       forecast.push(
         new Weather(
           this.city,
-          dayjs.unix(day.dt).format('dddd, MMMM, YYYY'),
+          dayjs.unix(day.dt).format('dddd, MMMM D, YYYY'),
           day.main.temp,
           day.wind.speed,
           day.main.humidity,

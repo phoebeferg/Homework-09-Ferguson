@@ -1,1 +1,18 @@
-[]
+[
+	{
+		"name": "Chicago",
+		"id": "6fc9d34c-e1e7-4d67-8e3d-0ab9c2333b87"
+	},
+	{
+		"name": "Atlanta",
+		"id": "d833a1cd-7b4d-4794-aa38-0013bdf369cd"
+	},
+	{
+		"name": "Miami",
+		"id": "ee4e80c0-3ebe-4817-aef8-0b4d16ca120c"
+	},
+	{
+		"name": "New York City",
+		"id": "99a928c8-4d46-4871-9e9c-24bccb216b64"
+	}
+]
